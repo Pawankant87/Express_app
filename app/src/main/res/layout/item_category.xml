@@ -9,7 +9,6 @@
         android:layout_width="54dp"
         android:layout_height="54dp"
         android:layout_marginTop="8dp"
-        android:background="@color/material_dynamic_neutral70"
         android:padding="2dp"
         android:scaleType="centerCrop"
         android:src="@drawable/placeholder"
@@ -31,4 +30,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/image" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

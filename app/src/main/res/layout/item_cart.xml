@@ -47,10 +47,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:drawableLeft="@drawable/ic_folder"
                     android:drawablePadding="5dp"
                     android:text="2 item(s)"
-                    android:textSize="11sp" />
+                    android:textSize="11sp"
+                    app:drawableLeftCompat="@drawable/ic_folder" />
 
                 <TextView
                     android:id="@+id/price"
@@ -58,7 +58,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="right"
-                    android:text="PKR 100.0"
+                    android:text="₹%s 100.0"
                     android:textColor="#4CAF50"
                     android:textStyle="bold" />
             </LinearLayout>

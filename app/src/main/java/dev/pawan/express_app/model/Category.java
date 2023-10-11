@@ -2,13 +2,12 @@ package dev.pawan.express_app.model;
 
 public class Category {
 
-    private String name, icon, color, brief;
+    private String name, image, brief;
     private int id;
 
-    public Category(String name, String icon, String color, String brief, int id) {
+    public Category(String name, String image, String brief, int id) {
         this.name = name;
-        this.icon = icon;
-        this.color = color;
+        this.image = image;
         this.brief = brief;
         this.id = id;
     }
@@ -22,19 +21,11 @@ public class Category {
     }
 
     public String getIcon() {
-        return icon;
+        return image;
     }
 
     public void setIcon(String icon) {
-        this.icon = icon;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
+        this.image = icon;
     }
 
     public String getBrief() {
